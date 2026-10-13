@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="spartan-armory.png" alt="Spartan Armory: a pixel Spartan helmet" width="128" height="128">
-</p>
-
 <h1 align="center">Spartan Armory</h1>
 
 <p align="center">Tools for Halo Infinite players, built with a Halo HUD look.</p>
