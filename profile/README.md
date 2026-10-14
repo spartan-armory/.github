@@ -8,15 +8,15 @@
 
 | | What it is | Status |
 | --- | --- | --- |
-| **[Halo Labs](https://web.bartmatusiak.com/halo/)** | The home of the tools: a dashboard with accounts, a HUD look, and docs for every page. | Live |
-| **Halo Stats** | A player's ranked playlists and CSR, lifetime figures (K/D, win rate, accuracy) and searchable match history. Part of Halo Labs. | Live, on sample data |
-| **Halo Tracker** | An overlay that sits on top of Halo Infinite and reads the kill feed (OCR) to show who on each team is alive or dead during a match. | Coming soon |
+| **[Halo Labs](https://web.bartmatusiak.com/halo/)** | The home of the tools: a dashboard with accounts, a HUD look in a choice of palettes, and docs for every page. | Live |
+| **Halo Stats** | Read from Halo Infinite itself. A player's ranked CSR with Halo's own rank emblems, career and combat figures over any window, best maps and modes, and every ranked match with both teams' scoreboards and medals. Plus **Pro Stats** for the LVT Halo Pro League and **Teams**, pro and community. Part of Halo Labs. | Live |
+| **[Halo Tracker](https://web.bartmatusiak.com/halo/tracker/download)** | A Windows overlay on top of Halo Infinite that reads the kill feed (OCR) to show who on each team is alive, dead or respawning. After each match it checks its own count against Halo's scoreboard, and sends the match to Halo Labs. | Live, 1.1 |
 
 ## Built with
 
-- **Halo Labs**: React, TanStack Router, Tailwind; a small Node API on SQLite; email sign-in codes.
-- **Halo Tracker**: on-screen OCR of the kill feed, drawn as a transparent overlay.
+- **Halo Labs**: React, TanStack Router, Tailwind; a small Node API on SQLite; email sign-in codes. Halo Stats reads Halo Infinite's own services through a linked Xbox account.
+- **Halo Tracker**: C# on Windows' built-in OCR, drawn as a transparent, click-through overlay. It only reads the screen: no memory reading, no input automation, nothing hooked into the game.
 
 ---
 
-<sub>Spartan Armory is a fan project. Halo is a trademark of Microsoft; this project isn't affiliated with or endorsed by Microsoft or Halo Studios.</sub>
+<sub>Spartan Armory is a fan project. Halo is a trademark of Microsoft; this project isn't affiliated with or endorsed by Microsoft or Halo Studios. Halo Labs is made under Microsoft's Game Content Usage Rules.</sub>
